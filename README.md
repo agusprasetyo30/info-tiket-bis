@@ -4,4 +4,4 @@
 - Agus Prasetyo
 - Febi Fidhiyanti Putri
 - Ananta Aufa Bachtiar
-- ~~ Dicky Juniansyah Putra ~~
+- ~~Dicky Juniansyah Putra~~
