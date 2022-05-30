@@ -12,18 +12,18 @@ public class Main {
         System.out.println();
         System.out.print("Piih Kota Keberangkatan : ");
         int kotaAsal = scanner.nextInt();
-        System.out.print("Pilih Kota Tujuan");
+        System.out.print("Pilih Kota Tujuan : ");
         int kotaTujuan = scanner.nextInt();
         if (kotaAsal == 1){
             switch (kotaTujuan){
                 case 2:
-                    rute.ruteMetro(kotaAsal,kotaTujuan);
+                    rute.ruteMetro(kotaTujuan);
                     break;
                 case 3:
-                    rute.ruteMetro(kotaAsal,kotaTujuan);
+                    rute.ruteMetro(kotaTujuan);
                     break;
                 case 4:
-                    rute.ruteMetro(kotaAsal,kotaTujuan);
+                    rute.ruteMetro(kotaTujuan);
                     break;
                 default:
                     System.out.println("Rute tidak ditemukan");
@@ -32,13 +32,13 @@ public class Main {
         } else if (kotaAsal == 2) {
             switch (kotaTujuan){
                 case 1:
-                    rute.ruteJakarta(kotaAsal,kotaTujuan);
+                    rute.ruteJakarta(kotaTujuan);
                     break;
                 case 3:
-                    rute.ruteJakarta(kotaAsal,kotaTujuan);
+                    rute.ruteJakarta(kotaTujuan);
                     break;
                 case 4:
-                    rute.ruteJakarta(kotaAsal,kotaTujuan);
+                    rute.ruteJakarta(kotaTujuan);
                     break;
                 default:
                     System.out.println("Rute tidak ditemukan");
@@ -47,13 +47,13 @@ public class Main {
         } else if (kotaAsal == 3) {
             switch (kotaTujuan){
                 case 1:
-                    rute.ruteBandung(kotaAsal,kotaTujuan);
+                    rute.ruteBandung(kotaTujuan);
                     break;
                 case 2:
-                    rute.ruteBandung(kotaAsal,kotaTujuan);
+                    rute.ruteBandung(kotaTujuan);
                     break;
                 case 4:
-                    rute.ruteBandung(kotaAsal,kotaTujuan);
+                    rute.ruteBandung(kotaTujuan);
                     break;
                 default:
                     System.out.println("Rute tidak ditemukan");
