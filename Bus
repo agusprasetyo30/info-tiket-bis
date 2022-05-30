@@ -1,0 +1,4 @@
+public class Bus {
+    public String busId;
+    public String kelas;
+}
