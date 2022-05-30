@@ -1,16 +1,81 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package InfoTiket;
+import java.util.Scanner;
 
-/**
- *
- * @author AgusPrasetyo
- */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Haloo dunia");
+        Scanner scanner = new Scanner(System.in);
+        Rute rute = new Rute();
+        System.out.println("Daftar Kota");
+        System.out.println("1. Metro");
+        System.out.println("2. Jakarta");
+        System.out.println("3. Bandung");
+        System.out.println("4. Surabaya");
+        System.out.println();
+        System.out.print("Piih Kota Keberangkatan : ");
+        int kotaAsal = scanner.nextInt();
+        System.out.print("Pilih Kota Tujuan");
+        int kotaTujuan = scanner.nextInt();
+        if (kotaAsal == 1){
+            switch (kotaTujuan){
+                case 2:
+                    rute.ruteMetro(kotaAsal,kotaTujuan);
+                    break;
+                case 3:
+                    rute.ruteMetro(kotaAsal,kotaTujuan);
+                    break;
+                case 4:
+                    rute.ruteMetro(kotaAsal,kotaTujuan);
+                    break;
+                default:
+                    System.out.println("Rute tidak ditemukan");
+                    break;
+            }
+        } else if (kotaAsal == 2) {
+            switch (kotaTujuan){
+                case 1:
+                    rute.ruteJakarta(kotaAsal,kotaTujuan);
+                    break;
+                case 3:
+                    rute.ruteJakarta(kotaAsal,kotaTujuan);
+                    break;
+                case 4:
+                    rute.ruteJakarta(kotaAsal,kotaTujuan);
+                    break;
+                default:
+                    System.out.println("Rute tidak ditemukan");
+                    break;
+            }
+        } else if (kotaAsal == 3) {
+            switch (kotaTujuan){
+                case 1:
+                    rute.ruteBandung(kotaAsal,kotaTujuan);
+                    break;
+                case 2:
+                    rute.ruteBandung(kotaAsal,kotaTujuan);
+                    break;
+                case 4:
+                    rute.ruteBandung(kotaAsal,kotaTujuan);
+                    break;
+                default:
+                    System.out.println("Rute tidak ditemukan");
+                    break;
+            }
+        } else if (kotaAsal == 4) {
+            switch (kotaTujuan){
+                case 1:
+                    rute.ruteSurabaya(kotaAsal,kotaTujuan);
+                    break;
+                case 2:
+                    rute.ruteSurabaya(kotaAsal,kotaTujuan);
+                    break;
+                case 3:
+                    rute.ruteSurabaya(kotaAsal,kotaTujuan);
+                    break;
+                default:
+                    System.out.println("Rute tidak ditemukan");
+                    break;
+            }
+        } else{
+            System.out.println("Rute tidak ditemukan");
+        }
     }
 }
