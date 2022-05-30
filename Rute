@@ -1,0 +1,19 @@
+public class Rute {
+    public String tanggal;
+    public int kotaAsal;
+    public int kotaTujuan;
+    public String harga;
+    
+    public void ruteMetro(int kotaAsal, int kotaTujuan){
+
+    }
+    public void ruteJakarta(int kotaAsal, int kotaTujuan){
+
+    }
+    public void ruteBandung(int kotaAsal, int kotaTujuan){
+
+    }
+    public void ruteSurabaya(int kotaAsal, int kotaTujuan){
+
+    }
+}
