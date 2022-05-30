@@ -3,4 +3,4 @@
 ### Daftar Kelompok
 - Agus Prasetyo
 - Febi Fidhiyanti Putri
-- Ananta Aufa Bachtiar
+- Ananta Aufa Bakhtiar
