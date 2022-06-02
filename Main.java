@@ -1,5 +1,5 @@
-package InfoTiket;
 //package Locket;
+package InfoTiket;
 
 import InfoTiket.Customer;
 import InfoTiket.BusRoute;

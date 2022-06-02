@@ -1,5 +1,5 @@
-package InfoTiket;
 //package Locket;
+package InfoTiket;
 
 public class BusRoute {
 
