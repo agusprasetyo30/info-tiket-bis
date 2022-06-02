@@ -1,8 +1,10 @@
 package InfoTiket;
+//package Locket;
 
-public class Rute {
-    public void ruteMetro(int kotaTujuan){
-        switch (kotaTujuan){
+public class BusRoute {
+
+    public void routeMetro(int destination) {
+        switch (destination) {
             case 2:
                 System.out.println();
                 System.out.println("5 Juni 2022");
@@ -26,12 +28,13 @@ public class Rute {
                 break;
             default:
                 System.out.println();
-                System.out.println("Rute tidak ditemukan");
+                System.out.println("Nothing");
                 break;
         }
     }
-    public void ruteJakarta(int kotaTujuan){
-        switch (kotaTujuan){
+
+    public void routeJakarta(int destination) {
+        switch (destination) {
             case 1:
                 System.out.println();
                 System.out.println("5 Juni 2022");
@@ -55,12 +58,13 @@ public class Rute {
                 break;
             default:
                 System.out.println();
-                System.out.println("Rute tidak ditemukan");
+                System.out.println("Nothing");
                 break;
         }
     }
-    public void ruteBandung(int kotaTujuan){
-        switch (kotaTujuan){
+
+    public void routeBandung(int destination) {
+        switch (destination) {
             case 1:
                 System.out.println();
                 System.out.println("5 Juni 2022");
@@ -84,12 +88,13 @@ public class Rute {
                 break;
             default:
                 System.out.println();
-                System.out.println("Rute tidak ditemukan");
+                System.out.println("Nothing");
                 break;
         }
     }
-    public void ruteSurabaya(int kotaAsal, int kotaTujuan){
-        switch (kotaTujuan){
+
+    public void routeSurabaya(int departure, int destination) {
+        switch (destination) {
             case 1:
                 System.out.println();
                 System.out.println("5 Juni 2022");
@@ -113,7 +118,7 @@ public class Rute {
                 break;
             default:
                 System.out.println();
-                System.out.println("Rute tidak ditemukan");
+                System.out.println("Nothing");
                 break;
         }
     }
