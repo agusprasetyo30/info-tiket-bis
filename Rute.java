@@ -1,3 +1,5 @@
+package InfoTiket;
+
 public class Rute {
     public void ruteMetro(int kotaTujuan){
         switch (kotaTujuan){
